@@ -1,0 +1,13 @@
+module.exports = (e, t, i) => {
+  "use strict";
+
+  (i.r(t), i.d(t, {
+    default: () => a
+  }));
+  var n = i(8081),
+    o = i.n(n),
+    s = i(23645),
+    r = i.n(s)()(o());
+  r.push([e.id, "/*---------------------------------------------------------------------------------------------\n *  Copyright (c) Microsoft Corporation. All rights reserved.\n *  Licensed under the MIT License. See License.txt in the project root for license information.\n *--------------------------------------------------------------------------------------------*/\n/* ---------- DiffEditor ---------- */\n\n.monaco-diff-editor .diffOverview {\n\tz-index: 9;\n}\n\n.monaco-diff-editor .diffOverview .diffViewport {\n\tz-index: 10;\n}\n\n/* colors not externalized: using transparancy on background */\n.monaco-diff-editor.vs\t\t\t.diffOverview { background: rgba(0, 0, 0, 0.03); }\n.monaco-diff-editor.vs-dark\t\t.diffOverview { background: rgba(255, 255, 255, 0.01); }\n\n.monaco-scrollable-element.modified-in-monaco-diff-editor.vs\t\t.scrollbar { background: rgba(0,0,0,0); }\n.monaco-scrollable-element.modified-in-monaco-diff-editor.vs-dark\t.scrollbar { background: rgba(0,0,0,0); }\n.monaco-scrollable-element.modified-in-monaco-diff-editor.hc-black\t.scrollbar { background: none; }\n\n.monaco-scrollable-element.modified-in-monaco-diff-editor .slider {\n\tz-index: 10;\n}\n.modified-in-monaco-diff-editor\t\t\t\t.slider.active { background: rgba(171, 171, 171, .4); }\n.modified-in-monaco-diff-editor.hc-black\t.slider.active { background: none; }\n\n/* ---------- Diff ---------- */\n\n.monaco-editor .insert-sign,\n.monaco-diff-editor .insert-sign,\n.monaco-editor .delete-sign,\n.monaco-diff-editor .delete-sign {\n\tfont-size: 11px !important;\n\topacity: 0.7 !important;\n\tdisplay: flex !important;\n\talign-items: center;\n}\n.monaco-editor.hc-black .insert-sign,\n.monaco-diff-editor.hc-black .insert-sign,\n.monaco-editor.hc-black .delete-sign,\n.monaco-diff-editor.hc-black .delete-sign {\n\topacity: 1;\n}\n\n.monaco-editor .inline-deleted-margin-view-zone {\n\ttext-align: right;\n}\n.monaco-editor .inline-added-margin-view-zone {\n\ttext-align: right;\n}\n\n/* ---------- Inline Diff ---------- */\n\n.monaco-editor .view-zones .view-lines .view-line span {\n\tdisplay: inline-block;\n}\n\n.monaco-editor .margin-view-zones .lightbulb-glyph:hover {\n\tcursor: pointer;\n}\n", ""]);
+  const a = r;
+};

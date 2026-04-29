@@ -1,0 +1,13 @@
+module.exports = (e, t, i) => {
+  "use strict";
+
+  (i.r(t), i.d(t, {
+    default: () => a
+  }));
+  var n = i(8081),
+    o = i.n(n),
+    s = i(23645),
+    r = i.n(s)()(o());
+  r.push([e.id, "/*---------------------------------------------------------------------------------------------\n *  Copyright (c) Microsoft Corporation. All rights reserved.\n *  Licensed under the MIT License. See License.txt in the project root for license information.\n *--------------------------------------------------------------------------------------------*/\n\n.monaco-custom-checkbox {\n\tmargin-left: 2px;\n\tfloat: left;\n\tcursor: pointer;\n\toverflow: hidden;\n\topacity: 0.7;\n\twidth: 20px;\n\theight: 20px;\n\tborder: 1px solid transparent;\n\tpadding: 1px;\n\tbox-sizing:\tborder-box;\n\t-moz-user-select: none;\n\t     user-select: none;\n\t-webkit-user-select: none;\n\t-ms-user-select: none;\n}\n\n.monaco-custom-checkbox:hover,\n.monaco-custom-checkbox.checked {\n\topacity: 1;\n}\n\n.hc-black .monaco-custom-checkbox {\n\tbackground: none;\n}\n\n.hc-black .monaco-custom-checkbox:hover {\n\tbackground: none;\n}\n\n.monaco-custom-checkbox.monaco-simple-checkbox {\n\theight: 18px;\n\twidth: 18px;\n\tborder: 1px solid transparent;\n\tborder-radius: 3px;\n\tmargin-right: 9px;\n\tmargin-left: 0px;\n\tpadding: 0px;\n\topacity: 1;\n\tbackground-size: 16px !important;\n}\n\n/* hide check when unchecked */\n.monaco-custom-checkbox.monaco-simple-checkbox:not(.checked)::before {\n\tvisibility: hidden;\n}\n", ""]);
+  const a = r;
+};

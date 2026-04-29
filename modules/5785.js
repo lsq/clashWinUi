@@ -1,0 +1,13 @@
+module.exports = (e, t, i) => {
+  "use strict";
+
+  (i.r(t), i.d(t, {
+    default: () => a
+  }));
+  var n = i(8081),
+    o = i.n(n),
+    s = i(23645),
+    r = i.n(s)()(o());
+  r.push([e.id, "/*---------------------------------------------------------------------------------------------\n *  Copyright (c) Microsoft Corporation. All rights reserved.\n *  Licensed under the MIT License. See License.txt in the project root for license information.\n *--------------------------------------------------------------------------------------------*/\n\n.monaco-split-view2 {\n\tposition: relative;\n\twidth: 100%;\n\theight: 100%;\n}\n\n.monaco-split-view2 > .sash-container {\n\tposition: absolute;\n\twidth: 100%;\n\theight: 100%;\n\tpointer-events: none;\n}\n\n.monaco-split-view2 > .sash-container > .monaco-sash {\n\tpointer-events: initial;\n}\n\n.monaco-split-view2 > .monaco-scrollable-element {\n\twidth: 100%;\n\theight: 100%;\n}\n\n.monaco-split-view2 > .monaco-scrollable-element > .split-view-container {\n\twidth: 100%;\n\theight: 100%;\n\twhite-space: nowrap;\n\tposition: relative;\n}\n\n.monaco-split-view2 > .monaco-scrollable-element > .split-view-container > .split-view-view {\n\twhite-space: initial;\n\tposition: absolute;\n}\n\n.monaco-split-view2 > .monaco-scrollable-element > .split-view-container > .split-view-view:not(.visible) {\n\tdisplay: none;\n}\n\n.monaco-split-view2.vertical > .monaco-scrollable-element > .split-view-container > .split-view-view {\n\twidth: 100%;\n}\n\n.monaco-split-view2.horizontal > .monaco-scrollable-element > .split-view-container > .split-view-view {\n\theight: 100%;\n}\n\n.monaco-split-view2.separator-border > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child)::before {\n\tcontent: ' ';\n\tposition: absolute;\n\ttop: 0;\n\tleft: 0;\n\tz-index: 5;\n\tpointer-events: none;\n\tbackground-color: var(--separator-border);\n}\n\n.monaco-split-view2.separator-border.horizontal > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child)::before {\n\theight: 100%;\n\twidth: 1px;\n}\n\n.monaco-split-view2.separator-border.vertical > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child)::before {\n\theight: 1px;\n\twidth: 100%;\n}\n", ""]);
+  const a = r;
+};

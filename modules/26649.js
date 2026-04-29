@@ -1,0 +1,13 @@
+module.exports = (e, t, i) => {
+  "use strict";
+
+  (i.r(t), i.d(t, {
+    default: () => a
+  }));
+  var n = i(8081),
+    o = i.n(n),
+    s = i(23645),
+    r = i.n(s)()(o());
+  r.push([e.id, "/*---------------------------------------------------------------------------------------------\n *  Copyright (c) Microsoft Corporation. All rights reserved.\n *  Licensed under the MIT License. See License.txt in the project root for license information.\n *--------------------------------------------------------------------------------------------*/\n.monaco-editor .cursors-layer {\n\tposition: absolute;\n\ttop: 0;\n}\n\n.monaco-editor .cursors-layer > .cursor {\n\tposition: absolute;\n\toverflow: hidden;\n}\n\n/* -- smooth-caret-animation -- */\n.monaco-editor .cursors-layer.cursor-smooth-caret-animation > .cursor {\n\ttransition: all 80ms;\n}\n\n/* -- block-outline-style -- */\n.monaco-editor .cursors-layer.cursor-block-outline-style > .cursor {\n\tbox-sizing: border-box;\n\tbackground: transparent !important;\n\tborder-style: solid;\n\tborder-width: 1px;\n}\n\n/* -- underline-style -- */\n.monaco-editor .cursors-layer.cursor-underline-style > .cursor {\n\tborder-bottom-width: 2px;\n\tborder-bottom-style: solid;\n\tbackground: transparent !important;\n\tbox-sizing: border-box;\n}\n\n/* -- underline-thin-style -- */\n.monaco-editor .cursors-layer.cursor-underline-thin-style > .cursor {\n\tborder-bottom-width: 1px;\n\tborder-bottom-style: solid;\n\tbackground: transparent !important;\n\tbox-sizing: border-box;\n}\n\n@keyframes monaco-cursor-smooth {\n\t0%,\n\t20% {\n\t\topacity: 1;\n\t}\n\t60%,\n\t100% {\n\t\topacity: 0;\n\t}\n}\n\n@keyframes monaco-cursor-phase {\n\t0%,\n\t20% {\n\t\topacity: 1;\n\t}\n\t90%,\n\t100% {\n\t\topacity: 0;\n\t}\n}\n\n@keyframes monaco-cursor-expand {\n\t0%,\n\t20% {\n\t\ttransform: scaleY(1);\n\t}\n\t80%,\n\t100% {\n\t\ttransform: scaleY(0);\n\t}\n}\n\n.cursor-smooth {\n\tanimation: monaco-cursor-smooth 0.5s ease-in-out 0s 20 alternate;\n}\n\n.cursor-phase {\n\tanimation: monaco-cursor-phase 0.5s ease-in-out 0s 20 alternate;\n}\n\n.cursor-expand > .cursor {\n\tanimation: monaco-cursor-expand 0.5s ease-in-out 0s 20 alternate;\n}\n", ""]);
+  const a = r;
+};

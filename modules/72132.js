@@ -1,0 +1,13 @@
+module.exports = (e, t, i) => {
+  "use strict";
+
+  (i.r(t), i.d(t, {
+    default: () => a
+  }));
+  var n = i(8081),
+    o = i.n(n),
+    s = i(23645),
+    r = i.n(s)()(o());
+  r.push([e.id, "\n.floating[data-v-9e0b3cf4] {\n  /* background-color: #fff; */\n  position: fixed;\n  left: 170px;\n  height: 60px;\n  width: calc(100vw - 170px);\n  display: flex;\n  justify-content: space-between;\n  padding: 0 50px 0 40px;\n  align-items: center;\n  box-shadow: 2px 2px 4px 1px rgba(50, 50, 50, 0.2);\n}\n.floating-right[data-v-9e0b3cf4] {\n  display: flex;\n  justify-content: flex-end;\n}\n.hint[data-v-9e0b3cf4] {\n  font-size: 1.1em;\n}\n.main-btn[data-v-9e0b3cf4] {\n  cursor: pointer;\n  margin-left: 20px;\n  box-shadow: 0px 0px 4px 1px rgba(50, 50, 50, 0.2);\n  text-align: center;\n  padding: 5px 0;\n  width: 80px;\n  border-radius: 5px;\n  color: #fff;\n}\n.reload[data-v-9e0b3cf4] {\n  background-color: rgb(199, 202, 16);\n}\n.save[data-v-9e0b3cf4] {\n  background-color: rgba(49, 167, 227, 1);\n}\n.drag[data-v-9e0b3cf4] {\n  /* background-color: #fff; */\n  display: flex;\n  padding: 0px 0px 20px 0px;\n  margin-top: 60px;\n  left: 20vw;\n  height: calc(100% - 70px);\n  width: calc(100vw - 170px);\n  max-width: 900px;\n}\n.proxy > div[data-v-9e0b3cf4] {\n  direction: ltr;\n}\n.proxy > draggable[data-v-9e0b3cf4] {\n  direction: ltr;\n}\n.section-title[data-v-9e0b3cf4] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin: 20px 0px 0px 0px;\n  font-size: 0.8em;\n}\nh2[data-v-9e0b3cf4] {\n}\nimg[data-v-9e0b3cf4] {\n  width: 20px;\n  height: 20px;\n  margin-left: 10px;\n  cursor: pointer;\n}\n.add-icon[data-v-9e0b3cf4] {\n  background-color: #677a94;\n  border-radius: 5px;\n  color: white;\n  font-size: 0.9em;\n  letter-spacing: 1px;\n  padding: 3px 10px;\n  cursor: pointer;\n  box-shadow: 0px 0px 4px 1px rgba(50, 50, 50, 0.2);\n}\n.type-icon[data-v-9e0b3cf4] {\n}\n.left-item[data-v-9e0b3cf4] {\n  background-color: #373948;\n}\n.right-item[data-v-9e0b3cf4] {\n  background-color: #65517a;\n}\n.group-type[data-v-9e0b3cf4] {\n  font-size: 0.7em;\n}\n.proxy-item[data-v-9e0b3cf4] {\n  opacity: 0.8;\n  cursor: pointer;\n  font-size: 1em;\n  padding: 5px 10px;\n  margin: 10px 0px;\n  display: flex;\n  color: #fff;\n  border-radius: 5px;\n  justify-content: space-between;\n  align-items: center;\n  box-shadow: 0px 0px 4px 1px rgba(50, 50, 50, 0.2);\n}\n", ""]);
+  const a = r;
+};

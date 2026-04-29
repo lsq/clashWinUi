@@ -1,0 +1,13 @@
+module.exports = (e, t, i) => {
+  "use strict";
+
+  (i.r(t), i.d(t, {
+    default: () => a
+  }));
+  var n = i(8081),
+    o = i.n(n),
+    s = i(23645),
+    r = i.n(s)()(o());
+  r.push([e.id, "\nmain[data-v-68cbbc92] {\n  display: flex;\n  justify-content: space-between;\n}\nmain > div[data-v-68cbbc92] {\n}\n.left-side[data-v-68cbbc92] {\n  display: flex;\n  flex-direction: column;\n  /* flex: 0 0 20%; */\n  width: 170px;\n  height: calc(100vh - 25px);\n}\n.right-side[data-v-68cbbc92] {\n  z-index: 2;\n  flex-grow: 1;\n  width: calc(100vw - 170px);\n  height: calc(100vh - 25px);\n}\n.welcome[data-v-68cbbc92] {\n  color: #555;\n  font-size: 23px;\n  margin-bottom: 10px;\n}\n.title[data-v-68cbbc92] {\n  color: #2c3e50;\n  font-size: 20px;\n  font-weight: bold;\n  margin-bottom: 6px;\n}\n.title.alt[data-v-68cbbc92] {\n  font-size: 18px;\n  margin-bottom: 10px;\n}\n.doc p[data-v-68cbbc92] {\n  color: black;\n  margin-bottom: 10px;\n}\n.doc button[data-v-68cbbc92] {\n  font-size: 0.8em;\n  cursor: pointer;\n  outline: none;\n  padding: 0.75em 2em;\n  border-radius: 2em;\n  display: inline-block;\n  color: #fff;\n  background-color: #4fc08d;\n  transition: all 0.15s ease;\n  box-sizing: border-box;\n  border: 1px solid #4fc08d;\n}\n.doc button.alt[data-v-68cbbc92] {\n  color: #42b983;\n  background-color: transparent;\n}\n.clash-status-main[data-v-68cbbc92] {\n  display: flex;\n  align-items: center;\n  position: absolute;\n  height: 40px;\n  bottom: 0px;\n  width: 170px;\n  left: 0px;\n  justify-content: center;\n  z-index: 2;\n}\n.clash-status-hint[data-v-68cbbc92] {\n  margin-left: 6px;\n  font-size: 0.75em;\n  letter-spacing: 0px;\n  cursor: pointer;\n}\n.clash-status-icon[data-v-68cbbc92] {\n  width: 12px;\n  height: 12px;\n  border-radius: 10px;\n  /* box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.4); */\n}\n.clash-running[data-v-68cbbc92] {\n  background-color: #41b883;\n}\n.clash-set-dns[data-v-68cbbc92] {\n  background-color: rgb(231, 217, 26);\n}\n.clash-stopped[data-v-68cbbc92] {\n  background-color: red;\n}\n.cloud[data-v-68cbbc92] {\n  position: fixed;\n  /* opacity: 0.2; */\n  bottom: 110px;\n  left: calc(50% + 80px);\n  transform: translateX(-50%);\n  width: 40%;\n  /* height: 150vh; */\n  pointer-events: none;\n}\n.opacicy[data-v-68cbbc92] {\n  opacity: 0.2;\n}\n.latern[data-v-68cbbc92] {\n  position: fixed;\n  opacity: 0.7;\n  top: 30px;\n  left: 125px;\n  width: 50px;\n  pointer-events: none;\n}\n", ""]);
+  const a = r;
+};

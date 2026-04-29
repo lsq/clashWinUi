@@ -1,0 +1,13 @@
+module.exports = (e, t, i) => {
+  "use strict";
+
+  (i.r(t), i.d(t, {
+    default: () => a
+  }));
+  var n = i(8081),
+    o = i.n(n),
+    s = i(23645),
+    r = i.n(s)()(o());
+  r.push([e.id, "/*---------------------------------------------------------------------------------------------\n *  Copyright (c) Microsoft Corporation. All rights reserved.\n *  Licensed under the MIT License. See License.txt in the project root for license information.\n *--------------------------------------------------------------------------------------------*/\n\n.monaco-editor .peekview-widget .head {\n\tbox-sizing: border-box;\n\tdisplay: flex;\n}\n\n.monaco-editor .peekview-widget .head .peekview-title {\n\tdisplay: flex;\n\talign-items: center;\n\tfont-size: 13px;\n\tmargin-left: 20px;\n\tmin-width: 0;\n}\n\n.monaco-editor .peekview-widget .head .peekview-title.clickable {\n\tcursor: pointer;\n}\n\n.monaco-editor .peekview-widget .head .peekview-title .dirname:not(:empty) {\n\tfont-size: 0.9em;\n\tmargin-left: 0.5em;\n}\n\n.monaco-editor .peekview-widget .head .peekview-title .meta {\n\twhite-space: nowrap;\n}\n\n.monaco-editor .peekview-widget .head .peekview-title .dirname {\n\twhite-space: nowrap;\n}\n\n.monaco-editor .peekview-widget .head .peekview-title .filename {\n\toverflow: hidden;\n\ttext-overflow: ellipsis;\n\twhite-space: nowrap;\n}\n\n.monaco-editor .peekview-widget .head .peekview-title .meta:not(:empty)::before {\n\tcontent: '-';\n\tpadding: 0 0.3em;\n}\n\n.monaco-editor .peekview-widget .head .peekview-actions {\n\tflex: 1;\n\ttext-align: right;\n\tpadding-right: 2px;\n}\n\n.monaco-editor .peekview-widget .head .peekview-actions > .monaco-action-bar {\n\tdisplay: inline-block;\n}\n\n.monaco-editor .peekview-widget .head .peekview-actions > .monaco-action-bar,\n.monaco-editor .peekview-widget .head .peekview-actions > .monaco-action-bar > .actions-container {\n\theight: 100%;\n}\n\n.monaco-editor .peekview-widget > .body {\n\tborder-top: 1px solid;\n\tposition: relative;\n}\n\n.monaco-editor .peekview-widget .head .peekview-title .codicon {\n\tmargin-right: 4px;\n}\n\n.monaco-editor .peekview-widget .monaco-list .monaco-list-row.focused .codicon {\n\tcolor: inherit !important;\n}\n", ""]);
+  const a = r;
+};
